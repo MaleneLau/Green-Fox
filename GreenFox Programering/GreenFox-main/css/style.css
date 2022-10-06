@@ -236,19 +236,18 @@
 .bokse1{ /*boks med tekst "om os"*/
     width: 90%;
     height: 180px;
-    background-color:gray;
+    background-color:#A6A6A6;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    margin-top: 55%;
+    position: relative;
+    top: 200px;
     padding-right: 5%;
     padding-left: 5%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
     border-radius: 10px;
-    position:relative;
 }
 .om-os-tekst h4{
     font-size: 20px;
@@ -256,19 +255,36 @@
     width: 100%;
     font-weight: normal;
     margin-top: 4%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .om-os-tekst p{
+    position: relative;
+    bottom: 10px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     font-weight: normal;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .link-box-om-os h6{
+    position: relative;
+    bottom: 8px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     font-weight: normal;
     margin-top: 4%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .link-box-om-os:hover {
     cursor: pointer;
@@ -280,25 +296,238 @@
     height: auto;
     width: 100%;
     position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     object-fit: cover;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 200px;
 }
-.text-fox h4 {
+.text-fox{
+    width: 100%;
+} 
+
+.overskrift1{
     position: relative;
-    top:1px;
-    left: 80%;
-    transform: translate(-50%, -50%);
+    left: 40%;
+    bottom: 15px;
+    transform: translate(-50%, - 50%);
     width: 95%;
     color: black;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter; 
+    font-weight: lighter;
+
+}
+.tekst1{
+    position: relative;
+    left: 69%;
+    bottom: 12px;
+    margin-top: 5px;
+    transform: translate(-50%, - 50%);
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+}
+.tekst2{
+    position: relative;
+    left: 65%;
+    bottom: 10px;
+    transform: translate(-50%, - 50%);
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+}
+.tekst3{
+    position: relative;
+    left: 68%;
+    bottom: 1px;
+    transform: translate(-50%, - 50%);
+    width: 95%;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+}
+.tekst4{
+    position: relative;
+    left: 62%;
+    bottom: 1px;
+    transform: translate(-50%, - 50%);
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+}
+.tekst5{
+    position: relative;
+    left: 73%;
+    bottom: 1px;
+    transform: translate(-50%, - 50%);
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
 }
 
+/*bund*/
+
+.box-bund{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color:#A6A6A6;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    top: 125px;
+}
+.kontakt-overskrift{
+    position: relative;
+    left: 9%;
+    top: 10px;
+    transform: translate(-50%, - 50%);
+    width: 95%;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;  
+}
+.mail-tekst{
+    position: relative;
+    left: 9%;
+    top: 19px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;  
+}
+.tlf-tekst{
+    position: relative;
+    left: 9%;
+    top: 20px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;  
+
+}
+.CVR-nr-tekst{
+    position: relative;
+    left: 9%;
+    top: 21px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.om-overskrift{
+    position: relative;
+    left: 45%;
+    bottom: 48px;
+    width: 95%;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+}
+.historie-tekst{
+    position: relative;
+    left: 45%;
+    bottom: 39px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+}
+.privat-tekst{
+    position: relative;
+    left: 45%;
+    bottom: 38px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+}
+.handelsbetingelser-tekst{
+    position: relative;
+    left: 45%;
+    bottom: 37px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;  
+}
+.cookie-tekst{
+    position: relative;
+    left: 45%;
+    bottom: 36px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+}
+.min-konto-overskrift{
+    position: relative;
+    left: 80%;
+    bottom: 120px;
+    width: 95%;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+}
+.ordre-tekst{
+    position: relative;
+    left: 80%;
+    bottom: 112px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+}
+.min-konto-tekst{
+    position: relative;
+    left: 80%;
+    bottom: 111px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+}
+.opret-konto-tekst{
+    position: relative;
+    left: 80%;
+    bottom: 110px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.kundeservice-tekst{
+    position: relative;
+    left: 80%;
+    bottom: 109px;
+    width: 95%;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
