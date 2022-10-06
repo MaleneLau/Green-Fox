@@ -1,0 +1,304 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: #fff;
+    height: 50px;
+}
+/*Burger menu, logo og globus*/
+.burgerbar img {
+    cursor: pointer; 
+    height: 20px;
+    width: auto;
+}
+
+.logo img {
+    cursor: pointer;
+    height: 50px;
+    width: auto;
+}
+
+.globe img {
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+}
+
+
+/*søge område*/
+.search-region {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.search-area img {
+    height: 20px;
+    width: auto;
+    float: left;
+    padding-right: 2%;
+}
+
+.search-area {
+    width: 95%;
+    height: 30px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E4E2;
+    border-radius: 15px;
+    outline: #E5E4E2;
+}
+
+
+.search-area input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 16px;
+    background-color: #E5E4E2;
+    width: 75%;
+    border-radius: 15px;
+    margin-right: 10%;
+    outline: 0;
+    border-radius: var(#E5E4E2);
+    appearance: none;
+}
+
+/* nyhed tekst + billede og overskrift */
+.nyheder {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nyheder img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.title-box {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.link-box {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.link-box:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*kollektion + billede af personer*/
+.kollektion {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kollektion-title {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #2B8835;
+}
+
+.kollektion img {
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+/* bokse med tekst, info med levering osv*/
+.bokse {
+    width: 100%;
+    display: block; /*Til at sætte boks under boks*/
+    margin-top: 10px;
+}
+
+.column1 {
+    width: 100%;
+    height: 35px;
+    background-color: #ffffff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-right: 15%;
+}
+
+.column2 {
+    width: 100%;
+    height: 35px;
+    background-color: #ffffff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 12%;
+}
+
+.column3 {
+    width: 100%;
+    height: 35px;
+    background-color: #ffffff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 24%;
+    padding-right: 2%;
+}
+
+.column4 {
+    width: 100%;
+    height: 35px;
+    background-color: #ffffff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 36%;
+    padding-right: 8%;
+}
+
+.column-text {
+    margin-left: 1%;
+}
+
+.column-text h6 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+    margin-top: 4%;
+}
+
+.column-text p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+}
+
+.column-icon img {
+    height: 25px;
+    margin-top: 40%;
+}
+
+/* anden dagen */
+
+.bokse2{
+    width: 100%;
+    display: block; /*Til at sætte boks under boks*/
+    margin-top: 10px;
+}
+.bokse1{ /*boks med tekst "om os"*/
+    width: 90%;
+    height: 180px;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 55%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    position:relative;
+}
+.om-os-tekst h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+    margin-top: 4%;
+}
+.om-os-tekst p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+}
+.link-box-om-os h6{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: normal;
+    margin-top: 4%; 
+}
+.link-box-om-os:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Fox billede + tekst */
+
+.fox img{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.text-fox h4 {
+    position: relative;
+    top:1px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
+}
+
